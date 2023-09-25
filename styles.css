@@ -1,27 +1,32 @@
 body {
-    font-family: 'Poppins', 'sans-serif';
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #65b8f4;
+    background-color: #45b2ff;
     color: #fff;
     text-align: center;
     padding: 20px 0;
 }
 
 .profile {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
 }
 
-.profile img{
+.profile img {
     object-fit: cover;
     width: 100%;
     height: 100%;
+    display: block;
 }
 
 h1 {
@@ -51,4 +56,16 @@ ul li::before {
     display: inline-block;
     width: 1em;
     margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(153, 36, 30);
+}
+
+a:visited {
+    color: rgb(65, 132, 247);
 }
